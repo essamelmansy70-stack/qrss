@@ -553,6 +553,7 @@ async function startServer() {
     // Build perfect rigid SEO tags block
     const seoTags = `
     <title>${title}</title>
+    <meta name="google-site-verification" content="aKazOq6saRml-er1E0utMLBBkIjpYR5sLl62yrYbUp8" />
     <meta name="description" content="${description}" />
     <meta name="robots" content="index, follow" />
     <meta property="og:title" content="${title}" />
