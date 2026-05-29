@@ -1,0 +1,6 @@
+{
+  "name": "QR Deep Linker",
+  "description": "Smart QR Code generator for YouTube Channels and Videos with deep-linking, customization, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
