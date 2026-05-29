@@ -572,7 +572,8 @@ async function startServer() {
     // Dynamic replacement of body tags
     let replacedHtml = htmlSource
       .replace(/<html[^>]*>/, `<html lang="${lang}" dir="${dir}">`)
-      .replace(/<title>[^<]*<\/title>/, seoTags)
+      .replace(/<title>[^<]*<\/title>/, "")
+      .replace(/<meta name="google-site-verification"[^>]*>/, "")
       .replace("</head>", `${seoTags}\n</head>`);
 
     return replacedHtml;
